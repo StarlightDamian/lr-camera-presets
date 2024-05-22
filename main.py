@@ -23,4 +23,3 @@ if __name__ == "__main__":
     utils.pipline(args.path, args.camera)
     
     
-    
