@@ -48,7 +48,7 @@ No way! No way! It's 4202, and you still haven't mastered your camera? 🤡🤡 
 
   * Windows Environment
     * Download and extract the files
-    * Install pyexiftool using a package manager like Anaconda Prompt with the command:
+    * Install pyexiftool using a package manager like Anaconda Prompt with the command
       ```bash
       $ python -m pip install -U pyexiftool
       ```
