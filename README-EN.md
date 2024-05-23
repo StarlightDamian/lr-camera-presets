@@ -30,7 +30,7 @@ No way! No way! It's 4202, and you still haven't mastered your camera? 🤡🤡 
   
   
 
-## Installation
+## Installation Environment
 
 * Python
   * Anaconda or PyCharm
@@ -40,14 +40,19 @@ No way! No way! It's 4202, and you still haven't mastered your camera? 🤡🤡 
 
 * Installation
 
-    * Linux Environment
+  * Linux Environment
+    ```Linux
+    $ git clone https://github.com/fengzhisuiyi/lr-camera-presets.git
+    $ python -m pip install -U pyexiftool
+    ```
+
+  * Windows Environment
+    * Download and extract the files
+    * Install pyexiftool using a package manager like Anaconda Prompt with the command:
       ```bash
-      $ git clone https://github.com/fengzhisuiyi/lr-camera-presets.git
+      $ python -m pip install -U pyexiftool
       ```
 
-    * Windows Environment
-      * Download and extract the files
-      
         
 
 ## Quick Start
@@ -92,9 +97,9 @@ No way! No way! It's 4202, and you still haven't mastered your camera? 🤡🤡 
 
 ## References
 
-* [1] https://sylikc.github.io/pyexiftool/index.html
-* [2] https://helpx.adobe.com/cn/lightroom-classic/kb/tethered-camera-support.html
-* [3] https://helpx.adobe.com/cn/camera-raw/kb/camera-raw-plug-supported-cameras.html
+[1] https://sylikc.github.io/pyexiftool/index.html
+[2] https://helpx.adobe.com/cn/lightroom-classic/kb/tethered-camera-support.html
+[3] https://helpx.adobe.com/cn/camera-raw/kb/camera-raw-plug-supported-cameras.html
 
 ```@article{lr-camera-presets,
   author = {Starlight Damian},

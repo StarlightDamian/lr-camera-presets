@@ -45,12 +45,19 @@
     * Linux环境
       ```bash
       $ git clone https://github.com/fengzhisuiyi/lr-camera-presets.git
+      $ git python -m pip install -U pyexiftool
       ```
       
     * Windows环境
       * 下载解压
       
+      * 通过包管理器如Anaconda Prompt安装pyexiftool
+      
+        ```bash
+        $ python -m pip install -U pyexiftool
+        ```
         
+          
 
 
 ## 快速开始
@@ -95,11 +102,11 @@
 
 ## 参考
 
-* 【1】https://sylikc.github.io/pyexiftool/index.html
+【1】https://sylikc.github.io/pyexiftool/index.html
 
-* 【2】https://helpx.adobe.com/cn/lightroom-classic/kb/tethered-camera-support.html
+【2】https://helpx.adobe.com/cn/lightroom-classic/kb/tethered-camera-support.html
 
-* 【3】https://helpx.adobe.com/cn/camera-raw/kb/camera-raw-plug-supported-cameras.html
+【3】https://helpx.adobe.com/cn/camera-raw/kb/camera-raw-plug-supported-cameras.html
 
 
 ```
