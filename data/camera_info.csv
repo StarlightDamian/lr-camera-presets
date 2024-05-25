@@ -1,9 +1,17 @@
-Make,Model,UniqueCameraModel
-FUJIFILM,GFX100S,Fujifilm GFX 100S
-Sony,ILCE-7,Sony ILCE-7
-Sony,ILCE-7RM5,Sony ILCE-7RM5
-Canon,EOS R3,Canon EOS R3
-Canon,EOS R5,Canon EOS R5
-Nikon,Z8,Nikon Z 8
-Nikon,Z9,Nikon Z 9
-Leica,SL 2,Leica SL 2
+Make,Model,UniqueCameraModel,Remark
+FUJIFILM,GFX100S,Fujifilm GFX 100S,TRUE
+Sony,ILCE-7,Sony ILCE-7,TRUE
+Sony,ILCE-7RM5,Sony ILCE-7RM5,TRUE
+Canon,EOS R3,Canon EOS R3,TRUE
+Canon,EOS R5,Canon EOS R5,TRUE
+Nikon,Z8,Nikon Z 8,TRUE
+Nikon,Z9,Nikon Z 9,TRUE
+Leica,SL 2,Leica SL 2,TRUE
+Phase One,IQ280,Phase One IQ280,FALSE
+Pentax,K-1,Pentax K-1,TRUE
+Panasonic,DC-S1,LUMIX DC-S1,FALSE
+Zeiss,ZX1,Zeiss ZX1,FALSE
+Olympus,OM-D E-M10,Olympus OM-D E-M10,FALSE
+Olympus,E-5,Olympus E-5,TRUE
+Hasselblad,H5D-50c,Hasselblad H5D-50c,FALSE
+Hasselblad,X1D,HASSELBLAD X1D,FALSE

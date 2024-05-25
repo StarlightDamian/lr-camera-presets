@@ -53,3 +53,4 @@ def pipline(image_path, camera):
     
     set_tags(image_path_list, tags=tags)
     get_tags(image_path_list)
+    

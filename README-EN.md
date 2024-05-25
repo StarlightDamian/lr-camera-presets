@@ -2,7 +2,7 @@
 
 # lr-camera-presets
 
-No way! No way! It's 4202, and you still haven't mastered your camera? 🤡🤡 Official presets for Fujifilm, Canon, Sony, Leica at your fingertips 🤏🤏. Come and master your camera with me 🛹🛹.
+No way! No way! It's 4202, and you still haven't mastered your camera? 🤡🤡 Official presets for Fujifilm, Canon, Sony, Leica,Pentax,Olympus at your fingertips 🤏🤏. Come and master your camera with me 🛹🛹.
 
 
 
@@ -80,7 +80,7 @@ No way! No way! It's 4202, and you still haven't mastered your camera? 🤡🤡 
 
 | Parameter |   Default Value   |                           Options                            |                            Notes                             |
 | :-------: | :---------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  camera   | Fujifilm GFX 100S | ['Fujifilm GFX 100S', 'Sony ILCE-7', 'Sony ILCE-7RM5', 'Canon EOS R3', 'Canon EOS R5', 'Nikon Z 9', 'Leica SL2'] | The camera brand parameters you want to modify the photos for. In Linux, pass one of the options as the camera parameter. In Windows, modify the default value at line 20 of main.py. |
+|  camera   | Fujifilm GFX 100S | ['Fujifilm GFX 100S', 'Sony ILCE-7', 'Sony ILCE-7RM5', 'Canon EOS R3', 'Canon EOS R5', 'Nikon Z 9', 'Leica SL2','Pentax K-1', 'Olympus E-5'] | The camera brand parameters you want to modify the photos for. In Linux, pass one of the options as the camera parameter. In Windows, modify the default value at line 20 of main.py. |
 |   path    |      ./image      |                        Any valid path                        | The folder whose photos you want to modify. If not provided, defaults to all DNG files in the project's image folder. |
 
 
