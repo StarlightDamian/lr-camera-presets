@@ -1,108 +1,101 @@
 [中文介绍](./README.md)
 
-# lr-camera-presets
+# LR Camera Presets
 
-No way! No way! It's 4202, and you still haven't mastered your camera? 🤡🤡 Official presets for Fujifilm, Canon, Sony, Leica,Pentax,Olympus at your fingertips 🤏🤏. Come and master your camera with me 🛹🛹.
+No way! No way! It's already the year 4202 and some people still haven't mastered their cameras 🤡🤡? Official presets for Fujifilm, Canon, Sony, Leica, Pentax, Olympus are at your fingertips 🤏🤏. Join me in mastering your camera 🛹🛹.
 
-
+By modifying the camera information in DNG files, you can use the camera's LR presets after importing the photos into Lightroom.
 
 ## Main Features
 
 * Official presets for various mainstream cameras
-
-* One-click operation with a Python environment
-
+* One-click setup with Python environment
 * Fast batch processing
-
 * Free!
 
-  
-
-## Comparison
+## Comparison of Effects
 
 - Sony PT Creative Look
 
-  <img src="./resources/Sony ILCE-7RM5 - PT.jpg" alt="Sony ILCE-7RM5" style="width:55%;"/>
+<img src="./resources/Sony ILCE-7RM5 - PT.jpg" alt="Sony ILCE-7RM5" style="width:55%;"/>
 
 - Fujifilm GFX 100S Camera Classic Neg Film Simulation
 
-  <img src="./resources/Fujifilm GFX 100S - Classic Neg.jpg" alt="Fujifilm GFX 100S" style="width:55%;"/>
-  
-  
+<img src="./resources/Fujifilm GFX 100S - Classic Neg.jpg" alt="Fujifilm GFX 100S" style="width:55%;"/>
 
 ## Installation Environment
 
 * Python
-  * Anaconda or PyCharm
+  * Either Anaconda or PyCharm is fine
 
 * Adobe Lightroom Classic
-  * Official or other versions
+  * Genuine or otherwise
 
 * Installation
 
-  * Linux Environment
-    ```Linux
-    $ git clone https://github.com/fengzhisuiyi/lr-camera-presets.git
-    $ python -m pip install -U pyexiftool
-    ```
-
-  * Windows Environment
-    * Download and extract the files
-    * Install pyexiftool using a package manager like Anaconda Prompt with the command
+    * Linux environment
       ```bash
-      $ python -m pip install -U pyexiftool
+      $ git clone https://github.com/StarlightDamian/lr-camera-presets.git
+      $ git python -m pip install -U pyexiftool
       ```
 
-        
+    * Windows environment
+      * Download and extract
+      
+      * Install pyexiftool via a package manager like Anaconda Prompt
+      
+        ```bash
+        $ python -m pip install -U pyexiftool
+        ```
 
 ## Quick Start
 
-* Place multiple DNG photos you want to modify in the image folder
+* Place the DNG photos you want to modify in the image folder
 
 * Run the program
 
-    * Linux Environment，you can setup from the source
+    * Linux environment
       ```bash
       $ cd lr-camera-presets
       $ python main.py --camera Fujifilm GFX 100S
       ```
 
-    * Windows Environment
-      * Run main.py
+    * Windows environment
+      * Open and run main.py
 
-* Import the photos from the image folder into Lightroom
+* Import photos from the image folder into LR
 
-    * Modify the photos - Basic - Profile to see the new presets
-    
-      
+    * Modify photos - Basic - Profile, you can see the new presets
+      <img src="./resources/LR-basic-configuration file.png" alt="configuration file" style="width:45%;"/>
+      <img src="./resources/LR-basic-configuration file-creative look.png" alt="creative look" style="width:45%;"/>
 
 ## Parameters
 
-| Parameter |   Default Value   |                           Options                            |                            Notes                             |
-| :-------: | :---------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  camera   | Fujifilm GFX 100S | ['Fujifilm GFX 100S', 'Sony ILCE-7', 'Sony ILCE-7RM5', 'Canon EOS R3', 'Canon EOS R5', 'Nikon Z 9', 'Leica SL2','Pentax K-1', 'Olympus E-5'] | The camera brand parameters you want to modify the photos for. In Linux, pass one of the options as the camera parameter. In Windows, modify the default value at line 20 of main.py. |
-|   path    |      ./image      |                        Any valid path                        | The folder whose photos you want to modify. If not provided, defaults to all DNG files in the project's image folder. |
-
-
+|  Parameter  |    Default Value    |                           Optional Values                            |                             Notes                             |
+| :---------: | :-----------------: | :------------------------------------------------------------------: | :------------------------------------------------------------: |
+|   camera    | Fujifilm GFX 100S   | ['Fujifilm GFX 100S', 'Sony ILCE-7', 'Sony ILCE-7RM5', 'Canon EOS R3', 'Canon EOS R5', 'Nikon Z 9', 'Leica SL2', 'Pentax K-1', 'Olympus E-5'] | Specifies the camera parameters you want to modify the photos to. When running in a Linux environment, pass one of the optional values as the camera parameter. In a Windows environment, modify the default value on line 20 of main.py. |
+|    path     |      ./image        |                          Any existing path                          | Specifies the folder containing the photos whose information you want to modify. If no value is passed, the information of all DNG files in the project's image folder will be modified. Does not handle .NEF, .CR2, .CR3, .RAF, .ARW, or other RAW formats. |
 
 ## Adding More Presets
 
-* Modify /data/camera_info.csv. The specific model must match Lightroom's internal parameters, which can be found in **Reference** [3].
+* Modify /data/camera_info.csv; specific models must match LR's internal parameters, which can be observed from **Reference** [3].
 
-* If UniqueCameraModel does not match Lightroom's camera model, the imported photo will have no preset.
+* If UniqueCameraModel does not match LR's camera model, the imported photos will have no presets.
 
-* If the Make column is incorrect, you will encounter ExifToolExecuteError: execute returned a non-zero exit status: 1.
-
-  
+* If the Make column is incorrect, it will result in an error: ExifToolExecuteError: execute returned a non-zero exit status: 1.
 
 ## References
 
 [1] https://sylikc.github.io/pyexiftool/index.html
-[2] https://helpx.adobe.com/cn/lightroom-classic/kb/tethered-camera-support.html
-[3] https://helpx.adobe.com/cn/camera-raw/kb/camera-raw-plug-supported-cameras.html
 
-```@article{lr-camera-presets,
+[2] https://helpx.adobe.com/lightroom-classic/kb/tethered-camera-support.html
+
+[3] https://helpx.adobe.com/camera-raw/kb/camera-raw-plug-supported-cameras.html
+
+```
+@article{lr-camera-presets,
   author = {Starlight Damian},
   title = {lr-camera-presets: Wonderful view of the world},
   year = {2024}
 }
+```

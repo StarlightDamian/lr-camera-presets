@@ -46,7 +46,7 @@
 
     * Linux环境
       ```bash
-      $ git clone https://github.com/fengzhisuiyi/lr-camera-presets.git
+      $ git clone https://github.com/StarlightDamian/lr-camera-presets.git
       $ git python -m pip install -U pyexiftool
       ```
       
@@ -80,8 +80,12 @@
 * LR导入image文件夹中的照片
 
     * 修改照片 - 基本 - 配置文件，可以看到新增的预设
-
+      <img src="./resources/LR-basic-configuration file.png" alt="configuration file" style="width:45%;"/>
+      <img src="./resources/LR-basic-configuration file-creative look.png" alt="creative look" style="width:45%;"/>
     
+      
+    
+
 
 ## 参数
 
