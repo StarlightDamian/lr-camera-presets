@@ -80,9 +80,10 @@
 * LR导入image文件夹中的照片
 
     * 修改照片 - 基本 - 配置文件，可以看到新增的预设
-      <img src="./resources/LR-basic-configuration file.png" alt="configuration file" style="width:45%;"/>
-      <img src="./resources/LR-basic-configuration file-creative look.png" alt="creative look" style="width:45%;"/>
-    
+      <div style="text-align: center;">
+        <img src="./resources/LR-basic-configuration file.png" alt="configuration file" style="width:45%;"/>
+        <img src="./resources/LR-basic-configuration file-creative look.png" alt="creative look" style="width:45%;"/>
+      </div>
       
     
 
