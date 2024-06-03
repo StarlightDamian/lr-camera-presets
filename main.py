@@ -16,7 +16,7 @@ import utils
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--camera', type=str, default='HASSELBLAD X1D', help='Camera uniquecameramodel')
+    parser.add_argument('--camera', type=str, default='Fujifilm GFX 100S', help='Camera uniquecameramodel')
     parser.add_argument('--path', type=str, default=f'{path}/image', help='The path to the folder where the photos are located')
     args = parser.parse_args()
     
