@@ -2,7 +2,7 @@
 
 # LR Camera Presets
 
-No way! No way! It's already the year 4202 and some people still haven't mastered their cameras 🤡🤡? Official presets for Fujifilm, Canon, Sony, Leica, Pentax, Olympus are at your fingertips 🤏🤏. Join me in mastering your camera 🛹🛹.
+No way! No way! It's already the year 4202 and some people still haven't mastered their cameras 🤡🤡? Official presets for Fujifilm, Canon, Sony,Nikon, Leica, Pentax, Olympus are at your fingertips 🤏🤏. Join me in mastering your camera 🛹🛹.
 
 By modifying the camera information in DNG files, you can use the camera's LR presets after importing the photos into Lightroom.
 
